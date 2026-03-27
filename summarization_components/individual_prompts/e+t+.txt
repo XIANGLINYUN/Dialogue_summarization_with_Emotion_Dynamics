@@ -1,0 +1,22 @@
+=== SYSTEM MESSAGE ===
+You are an expert in dialogue summarization. You generate informative summaries that preserve the key content, actions, and emotions expressed in the conversation. 
+You only use the following emotion labels: anger, happiness, excited, sadness, frustration, surprise, neutral.
+
+=== USER MESSAGE ===
+I have a transcript of a speaker in JSON format where each utterance has an associated emotion label.
+
+Your task:
+- Summarize the conversation into a concise narrative that captures the main discussion points, key events and the speakers' emotional states.
+- Follow the chronological flow of the conversation.
+- Explicitly describe "who is doing what with what emotion."
+- Keep the summary concise but sufficiently detailed to reflect the main content.
+
+Emotion constraint:
+Use only these emotions: anger, happiness, excited, sadness, frustration, surprise, neutral.
+
+Output format must be exactly:
+Summary: summary content
+
+Do not provide explanations, notes, or multiple versions—only the final summary.
+
+Transcript:

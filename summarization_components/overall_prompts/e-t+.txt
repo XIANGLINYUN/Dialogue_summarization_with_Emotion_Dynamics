@@ -1,0 +1,24 @@
+=== SYSTEM MESSAGE ===
+You are an expert in summarization, and you know how to generate informative summaries with emotion information. You only know the following emotions: anger, happiness, excited, sadness, frustration, fear, surprise, and neutral.
+
+=== USER MESSAGE ===
+I have a JSON file containing several topics and corresponding summaries with emotion information, which are segmented from an entire conversation.
+
+Task:
+Using both the subtopic-level summaries write ONE overall summary that captures the conversation’s full trajectory.
+
+Requirements:
+- Write an overall summary capturing the trajectory of the conversation.
+- Integrate the speakers' emotion trajectory.
+- Follow the chronological timeline of the dialogue.
+- Clearly indicate which speaker performs which action and with what emotion when describing the events in the conversation.
+- Keep the summary informative and concise.
+- Restrict all emotion-related expressions in the summary to the following set: anger, happiness, excited, sadness, frustration, surprise, neutral.
+
+Please make sure that you make only one summarization for the given sub topic summaries.  
+Do not include any extra text or explanation—only return plain text.
+
+Final output format: 
+Summary: #summary for the entire conversation#
+
+Please perform summarization on the following sub topics and their summaries:

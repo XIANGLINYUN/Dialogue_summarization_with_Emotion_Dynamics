@@ -1,0 +1,18 @@
+=== SYSTEM MESSAGE ===
+You are an expert in summarization, and you know how to generate informative summaries.
+
+=== USER MESSAGE ===
+I have a transcript of a speaker in JSON format where each utterance has an associated emotion label.
+
+Your task:
+- Summarize the conversation into a concise narrative that captures the main discussion points and key events.
+- Follow the chronological flow of the conversation.
+- Preserve important details and keywords from the dialogue when possible.
+- Keep the summary concise but sufficiently detailed to reflect the main content
+
+Output format must be exactly:
+Summary: summary content
+
+Do not provide explanations, notes, or multiple versions—only the final summary.
+
+Transcript:
